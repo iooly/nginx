@@ -267,7 +267,7 @@ them both to 0; an emulation function will be used. */
 #define PCRE_EXP_DEFN __attribute__ ((visibility ("default")))
 
 /* Define to any value if linking statically (TODO: make nice with Libtool) */
-#define PCRE_STATIC 1
+/* #undef PCRE_STATIC */
 
 /* When calling PCRE via the POSIX interface, additional working storage is
    required for holding the pointers to capturing substrings because PCRE
