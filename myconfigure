@@ -1,3 +1,8 @@
+#configure openssl
+cd ext/libs/openssl-1.0.1c/
+./config
+cd ../../../
+
 ./configure \
 --prefix=/usr/local/nginx \
 --sbin-path=/usr/sbin \
