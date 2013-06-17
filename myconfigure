@@ -10,7 +10,7 @@
 --with-openssl=ext/libs/openssl-1.0.1c \
 \
 --group=www \
---user=data \
+--user=www \
 --conf-path=/etc/nginx/nginx.conf \
 --error-log-path=/var/log/nginx/error.log \
 --http-log-path=/var/log/nginx/access.log \
